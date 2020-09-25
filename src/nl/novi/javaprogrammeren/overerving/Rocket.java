@@ -31,7 +31,9 @@ public class Rocket {
     public boolean hasEnoughFuel(int fuel) {
         if(fuel < currentFuel) {
             return true;
-        } return false;
+        }
+        System.out.println("Rocket has no fuel");
+        return false;
     }
 
     @Override
